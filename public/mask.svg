@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Stylised hacker mask illustration">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1c1c1a"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2efeb"/>
+      <stop offset="100%" stop-color="#cfc9bd"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="152" fill="url(#bg)"/>
+  <circle cx="160" cy="160" r="152" fill="none" stroke="#e32b3c" stroke-width="5"/>
+  <circle cx="160" cy="160" r="138" fill="none" stroke="#262624" stroke-width="2"/>
+  <!-- mask face -->
+  <path d="M160 42 C108 42 76 88 76 148 C76 212 112 262 160 262 C208 262 244 212 244 148 C244 88 212 42 160 42 Z" fill="url(#face)"/>
+  <!-- cheek shading -->
+  <path d="M96 190 C110 232 132 254 160 254 C188 254 210 232 224 190 C210 226 188 242 160 242 C132 242 110 226 96 190 Z" fill="#b8b1a2" opacity="0.55"/>
+  <!-- eyebrows -->
+  <path d="M102 128 L142 118 L146 128 L106 138 Z" fill="#111110"/>
+  <path d="M218 128 L178 118 L174 128 L214 138 Z" fill="#111110"/>
+  <!-- eyes -->
+  <path d="M104 148 C116 138 134 138 142 148 C134 160 116 160 104 148 Z" fill="#111110"/>
+  <path d="M216 148 C204 138 186 138 178 148 C186 160 204 160 216 148 Z" fill="#111110"/>
+  <!-- nose -->
+  <path d="M160 152 L154 184 L166 184 Z" fill="#111110" opacity="0.85"/>
+  <!-- moustache -->
+  <path d="M118 204 C136 192 148 200 160 206 C172 200 184 192 202 204 C192 216 176 220 160 216 C144 220 128 216 118 204 Z" fill="#111110"/>
+  <!-- smile -->
+  <path d="M138 232 C148 240 172 240 182 232" fill="none" stroke="#111110" stroke-width="5" stroke-linecap="round"/>
+  <!-- goatee lines -->
+  <path d="M148 244 L152 254 M160 246 L160 256 M172 244 L168 254" stroke="#111110" stroke-width="4" stroke-linecap="round"/>
+  <!-- red accent marks -->
+  <circle cx="160" cy="28" r="5" fill="#e32b3c"/>
+  <circle cx="52" cy="160" r="4" fill="#e32b3c"/>
+  <circle cx="268" cy="160" r="4" fill="#e32b3c"/>
+</svg>
