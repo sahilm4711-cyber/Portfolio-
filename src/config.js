@@ -17,7 +17,9 @@ export const profile = {
   photoNote:
     "Hero picture — artwork chosen by Professor (\"I am\").",
   focus: {
-    image: "/one-target.jpg",
+    // Relative file name only — App.jsx prefixes import.meta.env.BASE_URL,
+    // so this resolves to /Portfolio-/one-target.jpg on GitHub Pages.
+    image: "one-target.jpg",
     alt: "A close-up eye with a red target crosshair and the words ONE TARGET",
     title: "One target",
     caption: "One target — learn red team, one honest step at a time.",

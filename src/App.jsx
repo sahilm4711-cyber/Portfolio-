@@ -116,7 +116,7 @@ export default function App() {
             <CircleDot size={14} /> {profile.availability} — {profile.location}
           </p>
           <figure className="mask-wrap">
-            <img className="hero-photo" src="/hero.jpg" alt="Artwork chosen by Professor — an anime face, half shattering, with a glowing orange eye" width="512" height="768" />
+            <img className="hero-photo" src={`${import.meta.env.BASE_URL}hero.jpg`} alt="Artwork chosen by Professor — an anime face, half shattering, with a glowing orange eye" width="512" height="768" />
             <figcaption>{profile.photoNote}</figcaption>
           </figure>
           <h1>
@@ -246,7 +246,7 @@ export default function App() {
         <section className="focus-banner" aria-label="One target">
           <Reveal>
             <div className="focus-inner">
-              <img src={profile.focus.image} alt={profile.focus.alt} width="736" height="1308" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}${profile.focus.image}`} alt={profile.focus.alt} width="736" height="1308" loading="lazy" />
               <div className="focus-text">
                 <p className="kicker">Focus</p>
                 <h2>{profile.focus.title}<span className="red-dot">.</span></h2>
